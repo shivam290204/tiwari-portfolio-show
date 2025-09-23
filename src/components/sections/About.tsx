@@ -6,6 +6,7 @@ const About = () => {
   const skills = {
     languages: ["C++", "Python", "JavaScript", "Java"],
     webDev: ["HTML", "CSS", "JavaScript", "Node.js", "React.js"],
+    datascience: ["Data Science", "Machine Learning", "Data Analysis"],
     databases: ["MySQL"],
     tools: ["Git", "GitHub", "VS Code", "Figma", "Canva"]
   };
@@ -18,8 +19,8 @@ const About = () => {
     },
     {
       icon: <Brain className="h-6 w-6" />,
-      title: "AI Healthcare Assistant",
-      description: "Built using Google Gemini API during IBM internship"
+      title: "Smart India Hackathon",
+      description: "Failed screening first time, reached finals the next year"
     },
     {
       icon: <Trophy className="h-6 w-6" />,
@@ -119,10 +120,21 @@ const About = () => {
                 </div>
 
                 <div>
+                  <h4 className="font-medium text-primary mb-3">Data Science</h4>
+                  <div className="flex flex-wrap gap-2">
+                    {skills.datascience.map((skill) => (
+                      <Badge key={skill} variant="secondary" className="bg-accent/10 text-accent border-accent/20">
+                        {skill}
+                      </Badge>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
                   <h4 className="font-medium text-primary mb-3">Databases</h4>
                   <div className="flex flex-wrap gap-2">
                     {skills.databases.map((skill) => (
-                      <Badge key={skill} variant="secondary" className="bg-accent/10 text-accent border-accent/20">
+                      <Badge key={skill} variant="secondary" className="bg-muted/10 text-muted-foreground border-muted/20">
                         {skill}
                       </Badge>
                     ))}

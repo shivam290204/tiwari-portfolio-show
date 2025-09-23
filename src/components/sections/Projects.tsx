@@ -9,20 +9,6 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "AI Healthcare Assistant",
-      description: "A comprehensive AI-powered healthcare assistant that makes complex medical knowledge accessible to everyday users. Features include a conversational health chatbot, medical report analyzer, and lifestyle advisor for meal planning and symptom-based action plans.",
-      technologies: ["HTML", "JavaScript", "Tailwind CSS", "Google Gemini API"],
-      features: [
-        "Conversational health chatbot for general inquiries",
-        "Medical report analyzer to simplify technical jargon",
-        "Lifestyle advisor for meal plans and symptom guidance",
-        "Responsive multi-tab user interface"
-      ],
-      link: "#",
-      github: "#",
-      category: "AI/ML"
-    },
-    {
       title: "Energy Shield Smart Grid AI",
       description: "An AI-powered electricity theft detection system that identifies suspicious consumption patterns and alerts authorities to potential theft or unauthorized usage. Enhances energy distribution security and minimizes revenue losses.",
       technologies: ["HTML5", "CSS3", "JavaScript", "Machine Learning"],
@@ -34,7 +20,7 @@ const Projects = () => {
       ],
       link: "#",
       github: "#",
-      category: "AI/ML"
+      category: "Web Development"
     },
     {
       title: "Emotion-Driven Interactive Storyteller",
@@ -48,7 +34,21 @@ const Projects = () => {
       ],
       link: "#",
       github: "#",
-      category: "AI/ML"
+      category: "Python Application"
+    },
+    {
+      title: "Google Summer of Code Participation",
+      description: "Actively preparing and participating in GSoC program, contributing to open-source projects and collaborative development. Focused on enhancing coding skills and contributing to meaningful projects in the tech community.",
+      technologies: ["Open Source", "Git", "GitHub", "Collaborative Development"],
+      features: [
+        "Contributing to open-source projects",
+        "Collaborative development with global teams",
+        "Code reviews and quality improvements",
+        "Community engagement and learning"
+      ],
+      link: "#",
+      github: "#",
+      category: "Open Source"
     }
   ];
 
