@@ -37,18 +37,18 @@ const Projects = () => {
       category: "Python Application"
     },
     {
-      title: "Google Summer of Code Participation",
-      description: "Actively preparing and participating in GSoC program, contributing to open-source projects and collaborative development. Focused on enhancing coding skills and contributing to meaningful projects in the tech community.",
-      technologies: ["Open Source", "Git", "GitHub", "Collaborative Development"],
+      title: "AI Health Chatbot",
+      description: "An intelligent healthcare assistant chatbot that provides medical information, symptom analysis, and health recommendations. Built with natural language processing to understand user queries and provide accurate health guidance.",
+      technologies: ["Python", "Natural Language Processing", "Machine Learning", "Healthcare APIs"],
       features: [
-        "Contributing to open-source projects",
-        "Collaborative development with global teams",
-        "Code reviews and quality improvements",
-        "Community engagement and learning"
+        "Symptom analysis and health recommendations",
+        "Medical information database integration",
+        "Natural language understanding",
+        "User-friendly conversational interface"
       ],
       link: "#",
       github: "#",
-      category: "Open Source"
+      category: "Healthcare"
     }
   ];
 
