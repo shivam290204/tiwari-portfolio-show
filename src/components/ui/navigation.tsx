@@ -6,9 +6,14 @@ import ThemeToggle from "@/components/ui/theme-toggle";
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
+      // Track scroll position for nav background
+      setIsScrolled(window.scrollY > 50);
+      
+      // Update active section
       const sections = ["home", "about", "projects", "contact"];
       const currentSection = sections.find(section => {
         const element = document.getElementById(section);
@@ -30,7 +35,12 @@ const Navigation = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      const navHeight = 64; // Height of navigation bar
+      const elementPosition = element.offsetTop - navHeight;
+      window.scrollTo({
+        top: sectionId === "home" ? 0 : elementPosition,
+        behavior: "smooth"
+      });
     }
     setIsMenuOpen(false);
   };
@@ -43,7 +53,9 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 glass border-b border-border/20">
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-border/20 ${
+      isScrolled ? "glass backdrop-blur-xl bg-background/80" : "bg-transparent"
+    }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo/Name */}
