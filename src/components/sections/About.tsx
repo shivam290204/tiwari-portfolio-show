@@ -4,7 +4,7 @@ import { GraduationCap, Code, Brain, Trophy } from "lucide-react";
 
 const About = () => {
   const skills = {
-    languages: ["C++", "Python", "JavaScript", "Java"],
+    languages: ["C++", "Python", "JavaScript"],
     webDev: ["HTML", "CSS", "JavaScript", "Node.js", "React.js"],
     datascience: ["Data Science", "Machine Learning", "Data Analysis"],
     databases: ["MySQL"],
