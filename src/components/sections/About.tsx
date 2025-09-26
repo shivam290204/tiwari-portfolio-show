@@ -62,9 +62,7 @@ const About = () => {
 
               <div className="mt-6 pt-6 border-t border-border/30">
                 <p className="text-text-secondary leading-relaxed">
-                  I'm a motivated Computer Science student with a solid foundation in software development 
-                  and problem-solving. My journey involves building innovative solutions and contributing 
-                  to dynamic teams while continuously expanding my technical expertise.
+                  Aspiring Software & AI Engineer with a solid foundation in Data Structures & Algorithms, Full-Stack Development, and Data Science/AI/ML. Successfully solved over 100 problems, showcasing strong problem-solving skills. Experienced in building web and AI-powered projects using HTML, CSS, JavaScript, React.js, and Python. Skilled in team leadership and collaboration, with a commitment to continuous learning and growth while contributing to innovative and dynamic teams.
                 </p>
               </div>
             </Card>
