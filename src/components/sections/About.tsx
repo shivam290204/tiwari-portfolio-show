@@ -62,7 +62,7 @@ const About = () => {
 
               <div className="mt-6 pt-6 border-t border-border/30">
                 <p className="text-text-secondary leading-relaxed">
-                  Aspiring Software & AI Engineer with a solid foundation in Data Structures & Algorithms, Full-Stack Development, and Data Science/AI/ML. Successfully solved over 100 problems, showcasing strong problem-solving skills. Experienced in building web and AI-powered projects using HTML, CSS, JavaScript, React.js, and Python. Skilled in team leadership and collaboration, with a commitment to continuous learning and growth while contributing to innovative and dynamic teams.
+                  Aspiring Software & AI Engineer with expertise in Full-Stack Development, Data Science/AI/ML, and Data Structures & Algorithms. Solved 100+ problems and built innovative web and AI projects using React.js, Python, and modern technologies. Passionate about continuous learning and collaborative team environments.
                 </p>
               </div>
             </Card>
