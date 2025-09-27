@@ -70,7 +70,7 @@ const Hero = () => {
               variant="outline"
               size="lg"
               className="border-primary/30 text-primary hover:bg-primary/10 px-8 py-4 text-lg font-medium"
-              onClick={() => window.open("#", "_blank")}
+              onClick={() => window.open("https://drive.google.com/file/d/1qohosyaosnV8gNQNieuL3YAZvyDrqrFW/view?usp=drive_link", "_blank")}
             >
               Download Resume
               <Download className="ml-2 h-5 w-5" />
