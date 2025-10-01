@@ -1,0 +1,18 @@
+# Normalize line endings for a cross-platform project
+# Force text files to use LF in the repo; Git/OS can convert on checkout if configured
+* text=auto eol=lf
+
+# Treat common binaries as binary to avoid line ending changes
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.lockb binary
+
+# Windows batch files typically expect CRLF
+*.bat text eol=crlf
+
+# Env and config files: keep LF to avoid subtle issues in containers/CI
+*.env text eol=lf
+*.env.* text eol=lf
